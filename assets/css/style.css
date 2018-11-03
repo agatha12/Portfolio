@@ -1,4 +1,5 @@
-body {
+/* home page */
+#home {
     background-image: url(../images/mountains1.png);
     height: 100%;
     
@@ -25,9 +26,81 @@ body {
     margin-bottom: 100px;
     opacity: 1.0;
 }
-a {
+.homelink {
     color: white;
     font-size: 20px;
     margin: 20px;
     font-weight: bold;
+}
+/* about me */
+#about{
+    /* background-image: url(../images/polka.jpg) */
+}
+#agpic {
+    margin: 50px;
+    float: left;    
+} 
+#aboutcontent {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 50px;
+}
+#nav{
+    margin: 0 auto;
+    width: 500px;
+    background-color: white;
+}
+.aboutlink{
+    margin: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+#header {
+    background-color: white;
+    height: 50px;
+}
+/* portfolio */
+.card {
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 25px;
+    float: left;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 2px 16px;
+}
+.cardimg{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+}
+#portfoliocontent {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    width: 800px;
+    background-color: white;
+    margin-top: 50px;
+    text-align:center;
+}
+/* contact */
+#contactcontent {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    width: 800px;
+    background-color: white;
+    margin-top: 50px;
+    text-align:center;
+}
+#contactinfo {
+    font-size: 35px;
+    margin: 30px;
 }
