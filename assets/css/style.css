@@ -34,19 +34,25 @@
 }
 /* about me */
 #about{
-    /* background-image: url(../images/polka.jpg) */
+    background-image: url(../images/trees.jpg);
+    
 }
-#agpic {
-    margin: 50px;
-    float: left;    
-} 
+ 
 #aboutcontent {
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
     width: 1000px;
+    height: 600px;
     background-color: white;
     margin-top: 50px;
+    color: grey;
+    /* opacity: 0.9; */
+}
+#agpic {
+    margin: 50px;
+    float: left;    
+    opacity: 1.0;
 }
 #name{
     font-size: 40px;
@@ -56,6 +62,10 @@
     margin: 0 auto;
     width: 500px;
     background-color: white;
+    color: grey;
+}
+.aboutlink:visited {
+    color:grey;
 }
 .aboutlink{
     margin: 30px;
