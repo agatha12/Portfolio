@@ -110,3 +110,21 @@
 #email{
     margin:20px;
 }
+@media screen and (max-width: 768px) {
+    #aboutcontent {
+        width:100%;
+    }
+    #portfoliocontent{
+        width:100%;
+    }
+    #contactcontent{
+        width:100%;
+    }
+    #home {
+        width:100%;
+    }
+
+
+}
+
+
