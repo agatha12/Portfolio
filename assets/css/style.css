@@ -71,6 +71,10 @@
     margin: 30px;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
+    color: grey;
+}
+.aboutlink:visited {
+    color: grey;
 }
 #header {
     background-color: white;
