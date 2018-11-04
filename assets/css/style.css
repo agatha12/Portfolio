@@ -83,6 +83,8 @@
     transition: 0.3s;
     margin: 25px;
     float: left;
+    background-color: rgb(25, 11, 39);
+    
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -95,14 +97,41 @@
     width: 300px;
     margin: 25px;
 }
+#portfolio {
+    background-image: url(../images/bulbs.jpg)
+}
 #portfoliocontent {
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
     width: 800px;
-    background-color: white;
     margin-top: 50px;
     text-align:center;
+    color:white;
+}
+#headerpro {
+    background-color: rgb(25, 11, 39);
+    height: 50px;
+}
+#navpro {
+    background-color: rgb(25, 11, 39);
+    margin: 0 auto;
+    width: 500px;
+}
+.prolink{
+    margin: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: white;
+}
+.prolink:visited {
+    color: white;
+}
+.cardlinks{
+    color:white;
+}
+.cardlinks:visited {
+    color: white;
 }
 #portfoliotitle {
     font-size: 40px;
