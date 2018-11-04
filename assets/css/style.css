@@ -112,11 +112,14 @@
     height:20px;
 }
 /* contact */
+#contact{
+    background-image: url(../images/keys.jpg)
+}
 #contactcontent {
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
-    width: 800px;
+    width: 400px;
     background-color: white;
     margin-top: 50px;
     text-align:center;
@@ -124,12 +127,19 @@
 #contactinfo {
     font-size: 35px;
     margin: 30px;
+    margin-top:1px;
+    color: grey;
 }
-.contactlink{
+.contactlink {
     margin:20px;
+    color: grey;
+}
+.contactlink:visited {
+    color:grey;
 }
 #email{
     margin:20px;
+    color: grey;
 }
 @media screen and (max-width: 768px) {
     #aboutcontent {
