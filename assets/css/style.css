@@ -148,12 +148,21 @@
 #contact{
     background-image: url(../images/keys.jpg)
 }
+#navcon {
+    background-color:grey;
+    width: 500px;
+    margin: 0 auto;
+}
+#headercon{
+    background-color: grey;
+    height: 50px;
+}
 #contactcontent {
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
     width: 400px;
-    background-color: white;
+    background-color:grey;
     margin-top: 50px;
     text-align:center;
 }
@@ -161,18 +170,19 @@
     font-size: 35px;
     margin: 30px;
     margin-top:1px;
-    color: grey;
+    color: white;
+
 }
 .contactlink {
     margin:20px;
-    color: grey;
+    color: white;
 }
 .contactlink:visited {
-    color:grey;
+    color:white;
 }
 #email{
     margin:20px;
-    color: grey;
+    color:white;
 }
 @media screen and (max-width: 768px) {
     #aboutcontent {
