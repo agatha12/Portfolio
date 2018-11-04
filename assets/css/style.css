@@ -48,6 +48,10 @@
     background-color: white;
     margin-top: 50px;
 }
+#name{
+    font-size: 40px;
+    text-align: center;
+}
 #nav{
     margin: 0 auto;
     width: 500px;
@@ -89,6 +93,13 @@
     background-color: white;
     margin-top: 50px;
     text-align:center;
+}
+#portfoliotitle {
+    font-size: 40px;
+    margin: 20px;
+}
+.space{
+    height:20px;
 }
 /* contact */
 #contactcontent {
