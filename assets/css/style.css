@@ -34,7 +34,7 @@
 }
 /* about me */
 #about{
-    background-image: url(../images/trees.jpg);
+    background-image: url(../images/plex.jpg);
     
 }
  
@@ -102,7 +102,7 @@
     margin: 25px;
 }
 #portfolio {
-    background-image: url(../images/bulbs.jpg)
+    background-image: url(../images/plex.jpg)
 }
 #portfoliocontent {
     margin: 0 auto;
@@ -146,7 +146,7 @@
 }
 /* contact */
 #contact{
-    background-image: url(../images/keys.jpg)
+    background-image: url(../images/plex.jpg)
 }
 #navcon {
     background-color:grey;
